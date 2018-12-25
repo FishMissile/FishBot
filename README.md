@@ -32,8 +32,8 @@ and `!help <command>` for more information on each command
 	sounds:: Display list of playable sounds
 	stop:: Stop current audio
 	tts:: Make the bot use TTS
-	To add more sounds just drop new Mp3 files into the `/sounds` folder.
 
+To add more sounds just drop new Mp3 files into the `/sounds` folder.
 
 You can set the bot to play specific audio files when a certain user joins a voice channel by editing `users.json` and adding the persons name and the local file name. If a user joins who is not in the list, the bot will use Text-to-Speech to announce when they connect.
 ```json
