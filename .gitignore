@@ -1,5 +1,6 @@
 # Logs
 logs
+config
 config.json
 configbackup.json
 
@@ -66,3 +67,5 @@ typings/
 .next
 config.json
 
+config.json
+config.json
