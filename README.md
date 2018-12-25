@@ -1,7 +1,12 @@
 ### Fishbot for Discord
 
 Be sure to put your own Discord API token or set your own command prefix in `config.json`
-
+```json
+{
+    "prefix": "!",
+    "token": "YOUR_TOKEN_HERE"
+}
+```
 To stream audio from YouTube, the `ytld-core` requires [FFMpeg](https://www.ffmpeg.org/download.html#build-windows  "FFMpeg") for Windows.  
 I had to install this manually as well as [Python 2.7.15](https://www.python.org/downloads/release/python-2715/ "Python 2.7.15")
 
@@ -12,9 +17,25 @@ Once it is up and running the default command prefix is `!`
 Use `!help` to display a list of commands.
                    
 and `!help <command>` for more information on each command
+    = Command List =
+    
+    [Use `help <commandname> for details]
+    
+    help:: List all bot commands.
+	insultplayer:: Random player insult
+	join:: Tell the bot to join a voice channel.
+	meme:: Display a random meme
+	neojoke:: Random Neokramer joke
+	ping:: Ping!
+	play:: Play a YouTube video
+	serverinfo:: Displays basic game server information.
+	sounds:: Display list of playable sounds
+	stop:: Stop current audio
+	tts:: Make the bot use TTS
+	To add more sounds just drop new Mp3 files into the `/sounds` folder.
 
-To add more sounds just drop new Mp3 files into the `/sounds` folder.
-You can set the bot to play specific audio files when a certain user joins by editing `users.json` and adding the persons name and the local file name.
+
+You can set the bot to play specific audio files when a certain user joins by editing `users.json` by adding the persons name and the local file name.
 ```json
 {
          "joinsounds":{
@@ -28,4 +49,3 @@ You can set the bot to play specific audio files when a certain user joins by ed
 ```
 
 see [Discord.js docs](https://discord.js.org/#/docs/main/stable/general/welcome "Discord.js") for more information on usage.
-
