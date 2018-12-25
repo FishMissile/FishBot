@@ -17,7 +17,8 @@ Once it is up and running the default command prefix is `!`
 Use `!help` to display a list of commands.
                    
 and `!help <command>` for more information on each command
-    = Command List =
+ 
+ 	= Command List =
     
     [Use `help <commandname> for details]
     
