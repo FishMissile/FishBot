@@ -7,6 +7,6 @@ I had to install this manually as well as [Python 2.7.15](https://www.python.org
 
 Use `node .` to launch
 
-Once it is up and running the default command prefix is ` ` `
-Use ` `help` to display a list of commands.
-and ` `help <command>` for more information on each command
+Once it is up and running the default command prefix is `!`
+Use `!help` to display a list of commands.
+and `!help <command>` for more information on each command
