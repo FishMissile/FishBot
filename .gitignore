@@ -3,6 +3,7 @@ logs
 config
 config.json
 configbackup.json
+_config.yml
 
 sounds/
 *.mp3
@@ -65,9 +66,3 @@ typings/
 
 # next.js build output
 .next
-config.json
-
-config.json
-config.json
-config.json
-config.json
