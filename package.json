@@ -1,0 +1,19 @@
+{
+  "name": "FishBot",
+  "version": "1.0.0",
+  "description": "Custom Discord bot for the Jagged Commandos",
+  "main": "bot.js",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "FishMissile",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "imgur": "^0.3.1",
+    "node-opus": "^0.3.1",
+    "prism-media": "github:hydrabolt/prism-media",
+    "ytdl-core": "^0.28.3"
+  }
+}
