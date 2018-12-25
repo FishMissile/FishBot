@@ -14,3 +14,5 @@ Use `!help` to display a list of commands.
 and `!help <command>` for more information on each command
 
 To add more sounds just drop new Mp3 files into the `/sounds` folder.
+
+see [Discord.js docs](https://discord.js.org/#/docs/main/stable/general/welcome "Discord.js") for more information on usage.
