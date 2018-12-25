@@ -14,5 +14,18 @@ Use `!help` to display a list of commands.
 and `!help <command>` for more information on each command
 
 To add more sounds just drop new Mp3 files into the `/sounds` folder.
+You can set the bot to play specific audio files when a certain user joins by editing `users.json` by adding the persons name and the local file name.
+```json
+{
+         "joinsounds":{
+             "username1": "sounds/sound1.mp3",
+             "username2": "sounds/sound2.mp3",
+             "username3": "sounds/sound3.mp3",
+             "username4": "sounds/sound4.mp3",
+             "username5": "sounds/sound5.mp3"
+            }
+}
+```
 
 see [Discord.js docs](https://discord.js.org/#/docs/main/stable/general/welcome "Discord.js") for more information on usage.
+
