@@ -2,6 +2,7 @@
   "name": "FishBot",
   "version": "1.0.0",
   "description": "Custom Discord bot for the Jagged Commandos",
+  "keyworkds": ["Discord","bot","chat","youtube","soundboard","sound","audio"],
   "main": "bot.js",
   "scripts": {
     "test": "run"
