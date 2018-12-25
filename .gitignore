@@ -1,6 +1,7 @@
 # Logs
 logs
 config.json
+configbackup.json
 
 sounds/
 *.mp3
