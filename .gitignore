@@ -1,6 +1,7 @@
 # Logs
 logs
 config
+./config.json
 config.json
 configbackup.json
 _config.yml
@@ -78,3 +79,4 @@ config.json
 =======
 >>>>>>> cb6950032b4e6b6eecfc2ce860d3654d141d0908
 *.json
+config.json
