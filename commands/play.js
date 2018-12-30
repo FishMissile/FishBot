@@ -30,8 +30,8 @@ module.exports = {
             const dispatcher = connection.playFile(
               "sounds/" + soundFiles[index]
             );
-            message.channel.send("Now Playing: " + args);
-            message.channel.send("Channel ID: " + message.channel);
+            //message.channel.send("Now Playing: " + args);
+            //message.channel.send("Channel ID: " + message.channel);
             dispatcher.on("end", () => {
               connection.disconnect();
             });
@@ -61,18 +61,22 @@ module.exports = {
           message.channel.send(vidInfoEmbed);
         });
 
-        const stream = ytdl(args[0], {
+        let stream = ytdl(args[0],{
           filter: "audioonly"
         });
 
         const dispatcher = connection.playStream(stream);
         dispatcher.on("end", () => voiceChannel.leave());
       });
+    } else {
+      message.channel.send(
+        `Invalid YouTube URL or sound. Use ${prefix}sounds to see a list of playable sound files. `
+      );
     }
 
     if (!args.length) {
       message.channel.send(
-        "Not enough arguments. Use !play <sound> or !play <youtube-link>"
+       `Not enough arguments. Use ${prefix}play <sound> or !play <youtube-link>`
       );
     }
   }

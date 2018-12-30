@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 module.exports = {
   notify(client, user, channel) {
     const { joinsounds } = require("./users.json");
-
+    //console.log(user)
     client.usersounds = new Discord.Collection();
 
     for (const user in joinsounds) {
@@ -16,7 +16,6 @@ module.exports = {
         .join()
         .then(connection => {
           const filename = joinsounds.user;
-          console.log(filename);
           const dispatcher = connection.playFile(client.usersounds.get(user));
           //console.log(newMember.user);
           //client.channels.last().send(newMember.user + "User has Joined");

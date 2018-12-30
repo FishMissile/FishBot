@@ -12,9 +12,6 @@ module.exports = {
         if (!voiceChannel) {
             return message.reply('please join a voice channel first!');
         }
-
         voiceChannel.leave();
-
-        message.channel.send('Pong.');
     },
 };
