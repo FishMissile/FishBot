@@ -12,7 +12,7 @@ Requirements:
 To stream audio from YouTube, the `ytld-core` requires [FFMpeg](https://www.ffmpeg.org/download.html#build-windows  "FFMpeg") for Windows.  
 I had to install this manually as well as [Python 2.7.15](https://www.python.org/downloads/release/python-2715/ "Python 2.7.15")
 
-In order to properly install node-gyp you will need to open Windows PowerShell as administrator and run `npm install --global --production windows-build-tools` before running `npm install` in the project folder.
+In order to properly install [node-gyp](https://github.com/nodejs/node-gyp "node-gyp") you will need to open Windows PowerShell as administrator and run `npm install --global --production windows-build-tools` before running `npm install` in the project folder.
 
 Use `node .` to launch
 
